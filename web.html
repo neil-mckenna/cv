@@ -10,25 +10,26 @@
 
     <!-- boostrap 5.1.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 
   </head>
 
-  <body class="bg-light">
+  <body class="bg-gray">
 
     <!-- nav -->
-    <nav class="navbar fixed-top navbar-light bg-info">
+    <nav class="navbar fixed-top navbar-light bg-info mb-4 border border-4 border-top-0 border-start-0 border-end-0 border-success">
       <div class="container">
-        <a class="navbar-brand active text-white" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link text-white" href="games.html">Games</a>
-        <a class="nav-link text-white" href="web.html">Websites</a>
-        <a class="nav-link text-white" href="cv.html">About Me</a>
+        <a class="navbar-brand active text-white" aria-current="page" href="index.html">Home</a></a><span class="text-success">|</span>
+        <a class="nav-link text-white" href="games.html">Games</a></a><span class="text-success">|</span>
+        <a class="nav-link text-white" href="web.html">Websites</a></a><span class="text-success">|</span>
+        <a class="nav-link text-white" href="cv.html">About Me</a></a><span class="text-success">|</span>
         <a class="nav-link text-white" href="#">Contact</a>
       </div>
     </nav>
 
-    <main class="container pt-5" style="margin-top: 20px;">
-      <section class="py-3 text-center container mt-5">
-      <div class="row py-lg-5">
+    <main class="container pt-5 " style="margin-top: 20px;">
+      <section class="py-3 text-center container mt-5  ">
+      <div class="row py-3 p-2 bg-light border-2 border-dark rounded" style="border: 1px solid black;">
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1 class="fw-light mt-5">My Web Projects</h1>
           <p class="lead text-muted">Here I have created a gallery of web projects I have been studying with.</p>
@@ -38,17 +39,17 @@
       </div>
     </section>
 
-    <div class="album py-2 bg-light">
+    <div class="album py-2 bg-light border-2 border-dark rounded" style="border: 1px solid black;">
       <div class="container">
 
-        <h6 class="h-6 text-center mb-3 pe-1 ps-1 pt-1 bg-info rounded text-white">Click the image links to check out the website!</h6>
+        <h6 class="h-6 text-center mb-3 pe-1 ps-1 pt-1 bg-warning rounded text-white border-2 border-danger" style="border: 1px solid black;"><strong>Click the image links to check out the website!</strong></h6>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
           <!-- start of cols -->
 
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card shadow-sm">
-              <div class="card-body text-center" style="height: 420px;">
+              <div class="card-body text-center" >
                 <h4 class="card-title font-monospace fw-bolder fst-italic shadow p-3 mb-5 bg-body rounded-pill">Drums</h4>
                 <a href="internal/drums/index.html"><img src="images/website-screens/drums-screen.png" class="img-thumbnail"></img></a>
                 <p class="card-text"><small>This is a Drum kit website. Play the drums through key presses and clicks.</small></p>
@@ -58,7 +59,7 @@
 
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card shadow-sm">
-              <div class="card-body text-center" style="height: 420px;">
+              <div class="card-body text-center">
                 <h4 class="card-title font-monospace fw-bolder fst-italic shadow p-3 mb-5 bg-body rounded-pill">Ruby on Rails</h4>
                 <a href="https://neilmckenna-portfolio.herokuapp.com/"><img src="images/website-screens/RoR-screen.png" class="img-thumbnail"></img></a>
                 <small>It may take time to load</small>
@@ -69,7 +70,7 @@
 
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card shadow-sm">
-              <div class="card-body text-center" style="height: 420px;">
+              <div class="card-body text-center">
                 <h4 class="card-title font-monospace fw-bolder fst-italic shadow p-3 mb-5 bg-body rounded-pill">Shploggo</h4>
                 <a href="https://shploggo.herokuapp.com/"><img src="images/website-screens/shploggo-screen.png" class="img-thumbnail" height="225px"></img></a>
                 <small>It may take time to load</small>
